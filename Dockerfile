@@ -1,4 +1,4 @@
 FROM tomcat:8
 LABEL app=my-app
-COPY /target/*.war /opt/tomcat8/webapps/myweb*.war
+COPY /var/lib/jenkins/workspace/DevOps-Pipeline-JavaApp-Build/target/*.war /opt/tomcat8/webapps/web.war
 # testing webhook
